@@ -1,0 +1,21 @@
+schema-version: v2
+kind: manifest
+spec:
+  type: app
+  plugins:
+    - name: qa-corp/java@1.0.0/java-web@0.0.1
+      alias: java-web-1729529564110
+      plugin-version-id: 01JA8HY4VH5RCEMME971V85TYZ
+      stack-version-id: 01JA8HDXVBW509MAKW5AM9PYCK
+      type: app
+      inputs:
+        Nome-do-Projeto: java-massa-de-dados
+        version-java: "8"
+      inputs-envs: {}
+      connections:
+        generates: []
+        requires: []
+      links:
+        generates: []
+  global-inputs: {}
+  global-computed-inputs: {}
